@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
                 Double result = Double.parseDouble(value1)-Double.parseDouble(value2);
                 Log.v("Res", result.toString());
                 resultView.setText("Answer: " + result.toString());
-2            }
+            }
         });
     }
 }
